@@ -1,0 +1,59 @@
+# Yii console commands
+/yii
+/yii_test
+/yii_test.bat
+
+# PhpStorm project files
+.idea
+
+# NetBeans project files
+nbproject
+
+# Zend Studio for Eclipse project files
+.buildpath
+.project
+.settings
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store files
+.DS_Store
+
+# Composer vendor dir
+/vendor/
+
+# Composer PHAR
+composer.phar
+
+# PHPUnit PHAR & local config
+phpunit.phar
+/phpunit.xml
+
+# Vagrant runtime
+/.vagrant
+
+# Ignore generated web entry points
+/frontend/web/index.php
+/frontend/web/index-test.php
+/frontend/web/robots.txt
+/backend/web/index.php
+/backend/web/index-test.php
+/backend/web/robots.txt
+
+# Ignore runtime & assets (generated files)
+/backend/runtime/
+/backend/web/assets/
+/frontend/runtime/
+/frontend/web/assets/
+/console/runtime/
+/common/runtime/
+
+# Node modules (if used)
+/node_modules/
+
+# Log files
+*.log
+
+# Local environment files
+.env
